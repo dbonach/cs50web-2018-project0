@@ -2,9 +2,11 @@ body {
   margin: 0;
 }
 
-// .container {
-//   margin: auto;
-// }
+.container-fluid {
+  // margin: auto;
+  max-width: 1000px;
+  min-width: 650px;
+}
 
 header {
   display: flex;
