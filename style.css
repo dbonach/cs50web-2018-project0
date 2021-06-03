@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+}
+
+hr {
+  margin-bottom: 3rem;
+}
+
+h5 {
+  margin-bottom: 1.25rem;
+}
+
+article {
+  max-width: 500px;
+  margin: auto;
+  text-align: justify;
+}
+article section {
+  margin-bottom: 3rem;
+}
+article li {
+  color: #444;
+  font-size: 0.875rem;
+  margin-bottom: 0.75rem;
+}
+article p {
+  font-size: 0.875rem;
+  color: #444;
+}
+article p a {
+  text-decoration: none;
+}
+
+.container-fluid {
+  max-width: 1000px;
+  min-width: min-content;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+header h1 {
+  position: relative;
+  color: #444;
+  min-width: max-content;
+  padding: 0.5rem;
+  font-size: 3rem;
+  margin: 2rem 0;
+  font-family: "Cabin Sketch", cursive;
+  font-weight: 700;
+}
+header h1 span {
+  margin: 0;
+  font-family: "Architects Daughter", cursive;
+  font-weight: normal;
+  position: absolute;
+  font-size: 0.75rem;
+  bottom: 0;
+}
+header ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-family: "Cabin Sketch", cursive;
+}
+header ul li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+header ul li:last-of-type {
+  margin-right: 0;
+}
+header ul li a {
+  color: #444;
+  text-decoration: none;
+}
+header ul span {
+  font-family: "Cabin Sketch", cursive;
+  font-size: 3rem;
+  font-weight: 400;
+}
+header ul span:last-of-type {
+  font-size: 0.75rem;
+  bottom: 0;
+  padding-top: 1rem;
+  font-family: "Architects Daughter", cursive;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 900px) {
+  #header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
