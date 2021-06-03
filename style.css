@@ -2,9 +2,38 @@ body {
   margin: 0;
 }
 
+hr {
+  margin-bottom: 3rem;
+}
+
+h5 {
+  margin-bottom: 1.25rem;
+}
+
+article {
+  max-width: 500px;
+  margin: auto;
+  text-align: justify;
+}
+article section {
+  margin-bottom: 3rem;
+}
+article li {
+  color: #444;
+  font-size: 0.875rem;
+  margin-bottom: 0.75rem;
+}
+article p {
+  font-size: 0.875rem;
+  color: #444;
+}
+article p a {
+  text-decoration: none;
+}
+
 .container-fluid {
   max-width: 1000px;
-  min-width: 650px;
+  min-width: min-content;
 }
 
 header {
@@ -58,6 +87,13 @@ header ul span:last-of-type {
   padding-top: 1rem;
   font-family: "Architects Daughter", cursive;
   font-weight: 400;
+}
+
+@media screen and (max-width: 900px) {
+  #header {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
