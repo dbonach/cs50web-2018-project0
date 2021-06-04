@@ -18,6 +18,9 @@ article {
 article section {
   margin-bottom: 3rem;
 }
+article section a {
+  color: #444;
+}
 article li {
   color: #444;
   font-size: 0.875rem;
@@ -27,10 +30,6 @@ article p {
   font-size: 0.875rem;
   color: #444;
 }
-article p a {
-  text-decoration: none;
-}
-
 .container-fluid {
   max-width: 1000px;
   min-width: min-content;
