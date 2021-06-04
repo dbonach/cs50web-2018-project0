@@ -120,3 +120,24 @@ header {
     align-items: center;
   }
 }
+
+// CSS for CS50.html
+table {
+  color: #444;
+  font-size: .875rem;
+  width: 100%;
+  text-align: left;
+
+  a {
+    color: #333;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: .5rem
+  }
+
+  th {
+    text-align: center;
+  }
+}

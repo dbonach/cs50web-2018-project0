@@ -95,5 +95,21 @@ header ul span:last-of-type {
     align-items: center;
   }
 }
+table {
+  color: #444;
+  font-size: 0.875rem;
+  width: 100%;
+  text-align: left;
+}
+table a {
+  color: #333;
+}
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+}
+table th {
+  text-align: center;
+}
 
 /*# sourceMappingURL=style.css.map */
