@@ -11,12 +11,15 @@ h5 {
 }
 
 article {
-  max-width: 500px;
+  max-width: 600px;
   margin: auto;
   text-align: justify;
 }
 article section {
   margin-bottom: 3rem;
+}
+article section a {
+  color: #444;
 }
 article li {
   color: #444;
@@ -27,10 +30,6 @@ article p {
   font-size: 0.875rem;
   color: #444;
 }
-article p a {
-  text-decoration: none;
-}
-
 .container-fluid {
   max-width: 1000px;
   min-width: min-content;
@@ -94,6 +93,22 @@ header ul span:last-of-type {
     flex-direction: column;
     align-items: center;
   }
+}
+table {
+  color: #444;
+  font-size: 0.875rem;
+  width: 100%;
+  text-align: left;
+}
+table a {
+  color: #333;
+}
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+}
+table th {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
