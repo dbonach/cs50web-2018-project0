@@ -11,7 +11,7 @@ h5 {
 }
 
 article {
-  max-width: 500px;
+  max-width: 600px;
   margin: auto;
   text-align: justify;
 }
@@ -27,7 +27,6 @@ article li {
   margin-bottom: 0.75rem;
 }
 article p {
-  font-size: 0.875rem;
   color: #444;
 }
 .container-fluid {
