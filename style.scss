@@ -136,16 +136,26 @@ header {
 }
 
 @media screen and (max-width: 509px) {
-    #header {
+  #header {
     flex-direction: column;
     align-items: center;
 
     h1 {
-      font-size: 2.25rem;
+      font-size: 2.125rem;
+      padding: 0.5rem 0.125rem;
+      margin: 1rem 0 2rem 0;
     }
 
     ul {
       padding-left: 0;
+
+      li {
+        margin-right: 0.5rem;
+      }
+
+      li:last-of-type {
+        margin-right: 0;
+      }
     }
   }
 }
