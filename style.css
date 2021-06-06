@@ -17,6 +17,9 @@ article {
   margin: auto;
   text-align: justify;
 }
+article h5 {
+  text-align: left;
+}
 article section {
   margin-bottom: 3rem;
 }
