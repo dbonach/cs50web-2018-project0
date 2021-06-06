@@ -17,6 +17,9 @@ article {
   margin: auto;
   text-align: justify;
 }
+article h5 {
+  text-align: left;
+}
 article section {
   margin-bottom: 3rem;
 }
@@ -105,10 +108,18 @@ header ul span:last-of-type {
     align-items: center;
   }
   #header h1 {
-    font-size: 2.25rem;
+    font-size: 2.125rem;
+    padding: 0.5rem 0.125rem;
+    margin: 1rem 0 2rem 0;
   }
   #header ul {
     padding-left: 0;
+  }
+  #header ul li {
+    margin-right: 0.5rem;
+  }
+  #header ul li:last-of-type {
+    margin-right: 0;
   }
 }
 table {
