@@ -27,6 +27,7 @@ article li {
   margin-bottom: 0.75rem;
 }
 article p {
+  font-size: 0.875rem;
   color: #444;
 }
 .container-fluid {
