@@ -120,10 +120,29 @@ header {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width:510px) and (max-width: 900px) {
   #header {
     flex-direction: column;
     align-items: center;
+
+    ul {
+      padding-left: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 509px) {
+    #header {
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      font-size: 2.25rem;
+    }
+
+    ul {
+      padding-left: 0;
+    }
   }
 }
 
