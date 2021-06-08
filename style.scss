@@ -5,7 +5,6 @@ $base-font-color: #444;
 
 body {
   margin: 0;
-  // padding: 0;
 }
 
 hr {
@@ -30,7 +29,6 @@ article {
 
     a {
       color: $base-font-color;
-      // text-decoration: none;
     }
   }
 
@@ -43,16 +41,10 @@ article {
   p {
     font-size: .875rem;
     color: $base-font-color;
-
-    a {
-      // text-decoration: none;
-      // color: #000;
-    }
   }
 }
 
 .container-fluid {
-  // margin: auto;
   max-width: 1000px;
   min-width: min-content;
 }
@@ -69,11 +61,8 @@ header {
     padding: 0.5rem;
     font-size: 3rem;
     margin: 2rem 0;
-    // font-family: 'Architects Daughter', cursive;
-    // font-family: 'Permanent Marker', cursive;
     font-family: 'Cabin Sketch', cursive;
     font-weight: 700;
-    // font-family: 'Architects Daughter', cursive;
 
     span {
       margin: 0; 
@@ -89,7 +78,6 @@ header {
     display: flex;
     align-items: center;
     margin: 0;
-
     font-family: 'Cabin Sketch', cursive;
 
     li {
@@ -107,20 +95,15 @@ header {
     }
 
     span {
-      // font-family: 'Architects Daughter', cursive;
       font-family: 'Cabin Sketch', cursive;
       font-size: 3rem;
-      // position: relative;
       font-weight: 400;
     }
 
     span:last-of-type {
-      // position: relative;
-      // align-self: flex-end;
       font-size: .75rem;
       bottom: 0;
       padding-top: 1rem;
-      // padding-left: .125rem;
       font-family: 'Architects Daughter', cursive;
       font-weight: 400;
     }
@@ -163,7 +146,7 @@ header {
   }
 }
 
-// CSS for CS50.html
+// CSS for table in CS50.html
 table {
   color: $base-font-color;
   font-size: .875rem;
