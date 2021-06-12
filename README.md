@@ -6,8 +6,6 @@ This project aims to make us familiar with HTML, CSS and SCSS. These are the [re
 
 We were told to choose any subject that we are interested in. I decided to make a page about the main free resources that have helped me in my path to learn programming and web development. I've tried to keep it simple and clear.
 
-If you know anything similar to CS50 courses, please let me know (:
-
 The project is hosted on github pages, you can check it out [clicking here](https://dbonach.github.io/cs50web-2018-project0/).
 
 <br />
